@@ -10,4 +10,12 @@
 
 @interface ViewController : UIViewController
 
+@property (strong, nonatomic) IBOutlet UITableView *tablita;
+@property (strong, nonatomic) IBOutlet UITextField *txt_url;
+@property (strong, nonatomic) IBOutlet UITextView *txt_datos;
+- (IBAction)btn_limpiar:(id)sender;
+
+- (IBAction)btn_traer:(id)sender;
+
+
 @end
